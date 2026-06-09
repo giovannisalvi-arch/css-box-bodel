@@ -1,0 +1,33 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.banner-destaque{
+    max-width: 650px;
+    background-color: #fff7ed; /* Fundo levemente alarajado/quente */
+    color: #451a03;
+
+    /* BOX MODEL */
+    padding: 25px 40px; /* Mais padding nas laterais */
+    margin: 40px auto;
+
+    /* Efeito de destaque apenas na esquerda */
+    border-left: 8px solid #ea580c; /* Laranja vibrante */
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+}
+
+h1 {
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #ea580c;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+}
