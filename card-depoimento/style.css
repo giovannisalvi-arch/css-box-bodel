@@ -1,0 +1,39 @@
+.body{
+    background-color: #f8fafc; /* Fundo acizentado para o card branco destacar */
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Fonte serifada para depoimentos */
+}
+
+.depoimento-box {
+    width: 450px;
+    background-color: #ffffff;
+   
+    /* BOX MODEL */
+    padding: 35px;
+    margin: 60px auto;
+    border: 1px solid #e2e8f0; /* Borda bem fina e elegante */
+}
+
+.aspas {
+    font-size: 60px;
+    color: #cbd5e1;
+    height: 20px; /* Truque para as aspas grandes não empurrarem o texto muito para baixo */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.texto-depoimento {
+    font-size: 18px;
+    font-style: italic;
+    color: #334155;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.autor {
+    font-family: 'Segoe UI', sans-serif; /* Mudança de fonte para o autor */
+    font-size: 14px;
+    font-weight: bold;
+    color: #64748b;
+    text-transform: uppercase; /* Deixa o nome em maiúsculas */
+    margin: 0;
+}
